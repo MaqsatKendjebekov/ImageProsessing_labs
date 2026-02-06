@@ -1,5 +1,0 @@
-Lab 1: Reading and Displaying Images in Python – Short Report
-In this lab, we learned how to read and display images using Python and the OpenCV library. First, a color image was downloaded from the internet and displayed using cv2.imread() and cv2.imshow(). The dimensions of the image were checked using the shape attribute, which showed that a color image contains three channels.
-Next, the color image was converted into a grayscale image using two different methods. One method directly read the image in grayscale mode, and the other method used the cvtColor() function. The grayscale image contained only intensity values and was saved to the system using cv2.imwrite().
-Finally, the grayscale image was converted into a binary image using thresholding. Different threshold values were applied to observe how the binary image changes. The same process was repeated using a landscape image and two other random images.
-This lab helped in understanding the differences between color, grayscale, and binary images and provided basic knowledge of image conversion techniques using OpenCV.
